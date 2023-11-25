@@ -1,0 +1,207 @@
+.allFilterComponent-container {
+  width: 100%;
+  height: 100%-20px;
+  color: black;
+  text-transform: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 10px 30px;
+  border-right: 1px solid var(--border-color);
+  position: sticky;
+  top: 140px;
+  z-index: 9999;
+  margin: 0;
+}
+.allFilterComponent-scroll-div {
+  width: 100%;
+  height: 626px;
+  overflow-y: scroll;
+}
+/* For Webkit browsers (Chrome, Safari, etc.) */
+.allFilterComponent-scroll-div {
+  scrollbar-width: thin;
+  scrollbar-color: #6391b1 #f1f1f1;
+}
+
+.allFilterComponent-scroll-div:hover {
+  scrollbar-color: #476a81 #f1f1f1; /* Thumb color on hover */
+}
+
+.allFilterComponent-scroll-div::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+  /* height: 20px; */
+}
+
+.allFilterComponent-scroll-div::-webkit-scrollbar-track {
+  background: white; /* Track color */
+}
+
+
+.allFilterComponent-filtered-container{
+  width: 100%;
+  height: 130px;
+  border-bottom: 2px solid var(--border-color);
+}
+.allFilterComponent-name-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 10px 0px;
+}
+.allFilterComponent-name-div .allFilterComponent-heading{
+  font-size: 1.2rem;
+}
+.allFilterComponent-name-div .allFilterComponent-clearAll{
+  color:brown;
+  cursor: pointer;
+}
+.allFilterComponent-selected-filtered-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+.info-shippingInfoMode-container{
+  position: relative;
+}
+.allFilterComponent-selected-filtered-container span{
+  background: #3a9978;
+  padding: 6px;
+  margin: 5px 0;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 1rem;
+}
+.allFilterComponent-selected-filtered-container span svg{
+  font-size: 0.9rem;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.allFilterComponent-selected-filtered-container span img{
+  width: 15px;
+  height: 15px;
+  margin: 0 2px 2px 2px;
+}
+
+
+
+.allFilterComponent-shipping-mode-container{
+  width: 100%;
+  height: 140px;
+  border-bottom: 2px solid var(--border-color);
+}
+.shipping-mode-filtered-heading{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 20px 10px 15px 0px;
+  font-size: 1rem;
+}
+.shipping-mode-filtered-heading svg{
+  margin-left: 5px;
+  cursor: pointer;
+}
+.allFilterComponent-product-shipping-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.allFilterComponent-product-shipping-div div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 10px;
+}
+.allFilterComponent-product-shipping-div div img{
+  width: 18px;
+  margin-right: 5px;
+}
+
+/*PRICE RANGE*/
+
+.allFilterComponent-price-range-container{
+  width: 100%;
+  height: 200px;
+  border-bottom: 2px solid var(--border-color);
+}
+.allFilterComponent-price-range-heading{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 20px 10px 20px 0px;
+  font-size: 1rem;
+}
+
+.allFilterComponent-price-range-filter-select-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+/* CUSTOMER RATING*/
+.allFilterComponent-customer-ratings{
+  width: 100%;
+  height: 200px;
+}
+.allFilterComponent-customer-ratings-heading{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 20px 10px 10px 0px;
+  font-size: 1rem;
+}
+.allFilterComponent-customer-ratings-div-container{
+  width: 100%;
+  height: auto;
+  /* border-bottom: 2px solid var(--border-color); */
+  padding: 10px 0;
+}
+.allFilterComponent-customer-ratings-div-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0;
+}
+.allFilterComponent-customer-ratings-div-row img{
+  width: 18px;
+  height: 18px;
+  margin: 0 5px;
+}
+.allFilterComponent-customer-ratings-div-row input{
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.allFilterComponent-customer-ratings-div-row input:checked{
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+}
+.allFilterComponent-customer-ratings-div-row span{
+  text-align: center;
+  margin: 0 0 1px 5px;
+  font-weight: lighter;
+  font-size: 0.90rem;
+}
+
+
+.selected {
+  background-color: #3a9978 !important;
+  color: white;
+}

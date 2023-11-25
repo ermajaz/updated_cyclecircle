@@ -1,0 +1,66 @@
+.custom-dropdown {
+  width: 100%;
+  padding: 20px 20px 20px 30px;
+  background: white;
+  color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1.5px solid var(--border-color) */
+  /* cursor: pointer; */
+  @media (max-width: 768px) {
+    padding: 20px 20px 10px 20px;
+  }
+}
+
+.custom-dropdown a {
+  text-transform: none;
+  color: black;
+  margin: 0 10px;
+  transition: 0.3s;
+  cursor:pointer;
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+}
+
+.menu{
+  width: 6rem;
+  background: #3a9978;
+  border-radius: 6px;
+  /* padding: 2px 0; */
+  margin-right: 5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.product-name-underline{
+  text-transform: none;
+  padding-bottom: 0px;
+  border-bottom: 2px solid black;
+}
+.navigation-slash{
+  width: 2.5px;
+  height: 35px;
+  font-size: 1.8rem;
+  margin-right: 10px;
+  background: black;
+}
+.navigation-transition {
+  margin-top: -1rem;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-in-out;
+  background: var(--main-background-color);
+}
+
+.navigation-transition.open {
+  height: 700px; /* Set to the maximum height you want */
+  transition: height 0.5s ease-in-out;
+}
+
+
+

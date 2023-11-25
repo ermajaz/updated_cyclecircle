@@ -1,0 +1,139 @@
+.container {
+  box-shadow: 0px 0px 10px 2px gray;
+  border-radius: 0 10px 10px 10px;
+  height: 70vh;
+  display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.cContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  @media (max-width: 768px) {
+    width: 100%;
+    
+  }
+}
+.cContainer > h2{
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+}
+.containerItems {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  row-gap: 40px;
+  min-height: 55vh;
+  color: black;
+  box-shadow: none;
+  border-radius: 0 10px 10px 10px;
+  @media (max-width: 768px) {
+    min-height: auto;
+    gap: 100px;
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.containerItems a{
+  color: black;
+}
+.cCardContainer {
+  width: 170px;
+  height: 170px;
+  border-radius: 20%;
+  background: radial-gradient(
+    #eee8e8 0%,
+    #eee9e9 51%,
+    #e4dcdc 71%,
+    rgb(223, 213, 213) 100%
+  );
+
+  /* box-shadow: 0px 8px 10px 2px gray; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 5px 0px rgb(70, 68, 68);
+  gap: 2px;
+  @media (max-width: 768px) {
+    width: 100px;
+  height: 100px;
+  }
+}
+.cCardContainer:hover {
+  /* background-color: #488ed9; */
+  transform: scale(1.02);
+}
+
+.cCard {
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  text-align: center;
+  /* background-color: #fff; */
+  border-radius: 5px;
+  /* overflow: hidden; */
+  /* transition: all 0.3s ease; */
+  @media (max-width: 768px) {
+    width: 60px;
+    height: auto;
+  }
+}
+.cCard:hover {
+  /* transform: scale(1.1); */
+}
+
+.cCard > img {
+  padding-top: 10px;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  @media (max-width: 768px) {
+    width: 60px;
+    height: 65px;
+  }
+}
+
+.cName {
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 10px 0;
+  @media (max-width: 768px) {
+    padding: 5px 0 10px 0;
+    font-size: 0.75rem;
+    letter-spacing: 0.08rem;
+    /* width: 100px; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cContainer {
+    justify-content: center;
+    gap: 30px;
+    row-gap: 10px;
+  }
+}

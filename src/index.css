@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+body {
+  color: white;
+  position: relative;
+  background-color: #e3e6e6;
+  align-items: center;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --main-background-color: #e3e6e6;
+  --page-background-color: white;
+  --border-color: #cacaca;
+  --color-primary: #e8eaed;
+  --color-secondary: #f9f9f9;
+  --color-blue: #003765;
+  --color-green: #3a9978;
+  --color-peach: #d49896;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#003765, #3a9978);
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#013865, #2f8466);
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+/* Hide the scrollbar buttons (arrows) */
+/* .scroll-container::-webkit-scrollbar-button {
+  display: none;
+} */
+
+/* Apply styles to the scrollbar only if it's not in the header */
+/* :not(.header)::-webkit-scrollbar {
+  width: 0;
+} */
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

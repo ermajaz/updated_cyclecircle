@@ -1,0 +1,411 @@
+.loginPage-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  position: relative;
+}
+.close-icon {
+  position: absolute;
+  top: 36px;
+  right: 22px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+.google-auth {
+  width: 451px;
+  height: 38.6px;
+  margin: 15px auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 4.82px;
+  color: black;
+  font-size: 0.85rem;
+}
+
+.google-auth img {
+  /* width: 50px;  */
+  margin-right: 10px;
+}
+
+.hr-separation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.hr-separation span {
+  margin: 0 10px;
+}
+.hr-separation hr {
+  /* width: 50px; */
+  margin: 0;
+  flex-grow: 0.3;
+  height: 1px;
+  background-color: #ccc;
+}
+.form-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+form input {
+  width: 451px;
+  height: 38.6px;
+  border-radius: 4.13px;
+  border: 0.82px solid var(--border-color);
+  outline: none;
+  margin: 10px auto;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+form button {
+  width: 451px;
+  height: 38.6px;
+  background-color: #9e3dcc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 6px auto;
+  font-size: 1rem;
+}
+
+.forgotPassword-login-via-otp-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 451px;
+  font-size: 0.9rem;
+}
+
+.forgotPassword-login-via-otp-container a {
+  color: #9e3dcc;
+  text-decoration: none;
+}
+.dont-have-an-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+.dont-have-an-account p {
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+.dont-have-an-account a {
+  font-size: 0.95rem;
+  color: #ffd700;
+}
+.signUp-separation {
+  width: 65%;
+  margin: 22px auto;
+}
+.check-pincode-availability-cyclecircle-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+}
+.check-pincode-availability-cyclecircle-info p {
+  font-size: 0.85rem;
+}
+
+.check-pincode-availability {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.check-pincode-availability input {
+  width: 60%;
+  height: 36.377px;
+  padding: 5px;
+  border-radius: 3.73px 0 0 3.73px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.check-pincode-availability button {
+  width: 25%;
+  height: 36.377px;
+  background-color: #3a9978;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0 3.73px 3.73px 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.otp-verification-container {
+  width: 100%;
+  height: 100%;
+}
+.otp-verification-container p {
+  font-size: 0.9rem;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.otp-verification-container .sent-code {
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+.otp-verification-container span {
+  font-size: 0.8rem;
+  margin: 3px auto;
+  color: #9e3dcc;
+}
+.otp-input-boxes {
+  width: 298px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.otp-input-boxes input {
+  width: 35px;
+  height: 46.7px;
+  background: transparent;
+  border-radius: 6px;
+  border: 3px solid var(--border-color);
+  margin: 0 8.7px;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+}
+.dont-receive-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.dont-receive-code p {
+  margin: 0;
+  font-size: 0.75rem;
+  margin-right: 5px;
+}
+.dont-receive-code a {
+  font-size: 0.85rem;
+  color: #9e3dcc;
+}
+.otp-verify-btn {
+  width: 451px;
+  height: 38.6px;
+  background-color: #9e3dcc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 6px auto;
+  font-size: 1rem;
+}
+
+/* Apply this style to the input element */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+/* Remove the spinner in Webkit/Blink browsers */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* FORGOT PASSWORD*/
+.sign-up-side-btn {
+  width: 96.5px;
+  height: 29.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 36px;
+  left: 30px;
+  cursor: pointer;
+  border: 0.641px solid var(--border-color);
+  border-radius: 3.74px;
+  color: #cacaca;
+  font-size: 0.9rem;
+}
+
+.forgot-password-container {
+  margin-top: 90px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forgot-password-container img {
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+  background: #9e3dcc;
+  border-radius: 50px;
+}
+.forgot-password-container p {
+  font-size: 0.8rem;
+  margin: 17px auto;
+  margin-bottom: 28px;
+}
+
+form label {
+  text-align: justify;
+  font-size: 0.85rem;
+}
+
+.back-to-login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.back-to-login-container span {
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+
+/* PASSWORD RECOVERY CONTAINER*/
+.password-recovery-container {
+  margin-top: 90px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.password-recovery-container img {
+  width: 46px;
+  height: 46px;
+  padding: 8px;
+  background: #9e3dcc;
+  border-radius: 50px;
+}
+.password-recovery-container h2 {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.password-recovery-container p {
+  font-size: 0.78rem;
+  margin: 10px auto;
+  /* margin-bottom: 35px; */
+}
+.otp-recovery-boxes {
+  width: 438px;
+  height: 58.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.otp-recovery-boxes input {
+  width: 46.7px;
+  height: 58.3px;
+  background: transparent;
+  border-radius: 6px;
+  border: 1.17px solid var(--border-color);
+  margin: 0 15.7px;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  outline: none;
+}
+.otp-recovery-verify-btn {
+  width: 451px;
+  height: 38.6px;
+  background-color: #9e3dcc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 6px auto;
+  font-size: 1rem;
+}
+
+.email-not-receive {
+  position: absolute;
+  bottom: 25px;
+  margin: 0 auto;
+}
+.email-not-receive p{
+    font-size: 0.8rem;
+}
+.email-not-receive p a {
+  color: #9e3dcc;
+  font-size: 0.85rem;
+}
+
+/* RESET PASSWORD*/
+
+/*RESET COMPLETE*/
+.reset-complete-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reset-complete-container iframe {
+  width: 50px;
+  height: 50px;
+  /* padding: 8px; */
+  background: #9e3dcc;
+  border-radius: 50px;
+}
+.reset-complete-container p {
+  margin: 15px auto;
+}
+.go-to-login-btn {
+  width: 451px;
+  height: 38.6px;
+  background-color: #9e3dcc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 7.97px;
+  cursor: pointer;
+  margin: 6px auto;
+  font-size: 1rem;
+}

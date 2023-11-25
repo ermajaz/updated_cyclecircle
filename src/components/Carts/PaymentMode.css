@@ -1,0 +1,103 @@
+.payment-mode-container{
+    width: 100%;
+}
+.payment-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.payment-mode-container-1{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: flex-start;
+}
+.payment-mode-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.payment-mode-recommended{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    margin-right: 40px;
+
+}
+.payment-mode-recommended span{
+    margin-left: 10px;
+
+}
+.payment-mode-recommended-options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: rgb(238, 233, 233);
+    padding-left: 130px;
+    
+}
+.payment-mode-recommended-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    cursor: pointer;
+
+}
+.payment-mode-recommended-option p{
+    margin-left: 10px;
+}
+
+.payment-mode-options{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.payment-mode-options-name{
+    padding: 1rem 0;
+}
+.payment-mode-card-options{
+    width: 100%;
+    padding:  0 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.payment-mode-card-option{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.payment-mode-card-option-div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.payment-mode-card-option-div span{
+    margin-left: 10px;
+}
+.payment-mode-card-option-div input{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.payment-mode-card-option-icon{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

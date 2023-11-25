@@ -1,0 +1,36 @@
+.reviewStar-ratings {
+  height: 61px;
+  position: absolute;
+  width: 370px;
+  top: 160px;
+  left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reviewStar-ratings .reviewStar-rating {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.reviewStar-ratings .reviewStar-starIcon {
+  height: 61px;
+  position: relative;
+  width: 61px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.reviewStar-total-star-count {
+  color: black;
+  position: relative;
+  left: 350px;
+  bottom: 4px;
+  font-size: 1.6rem;
+
+}

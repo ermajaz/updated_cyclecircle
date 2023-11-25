@@ -1,0 +1,16 @@
+.likeproudct-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 0rem;
+    background: white;
+    border-top: 1px solid var(--border-color);
+}
+.liketext-container h3{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}

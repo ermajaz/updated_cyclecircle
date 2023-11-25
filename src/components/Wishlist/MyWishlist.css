@@ -1,0 +1,23 @@
+.mywishlist-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    color: rgb(58, 56, 56);
+    background: white;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1.5rem;
+}
+.text-container h3{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.text-container span{
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: rgb(137, 131, 131);
+}

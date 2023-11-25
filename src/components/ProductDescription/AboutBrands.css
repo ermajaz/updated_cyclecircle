@@ -1,0 +1,65 @@
+.about_containers{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    color: black;
+    text-transform: none;
+}
+.about_containers .container-Name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5vh;
+    text-align: center;
+    color: black;
+}
+.about_containers .about_heading{
+    color: #1f1e1e;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    @media (max-width: 768px) {
+        margin: 0;
+        font-size: 1rem;
+      }
+}
+.about_containers .about_details{
+    margin-left: 5rem;
+    @media (max-width: 768px) {
+        font-size: 0.65rem;
+        margin-left: 0.8rem;
+      }
+}
+.about_containers .about_details .about_para{
+    font-size: 1rem;
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+      }
+}
+.about_containers .about_details .about_points ul{
+    list-style-type: decimal;
+}
+.about_containers .about_details .about_points .about_features_heading{
+    margin: 0;
+    margin-left: 5px;
+    @media (max-width: 768px) {
+        font-size: 0.65rem;
+      }
+}
+.about_containers .about_details .about_points ul li{
+    padding: 5px 0;
+    @media (max-width: 768px) {
+        font-size: 0.6rem;
+        line-height: 12px;
+      }
+}
+
+  
+  
+  
+  
+  
+  

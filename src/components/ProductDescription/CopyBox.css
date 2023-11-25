@@ -1,0 +1,92 @@
+.copy-box {
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+
+.copy-box .overlap {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--border-color);
+    border-radius: 10px;
+    height: 35px;
+    position: relative;
+    width: 220px;
+    color: black;
+    text-transform: none;
+    cursor: pointer;
+}
+
+.copy-box .copy {
+    height: 40px;
+    position: absolute;
+    top: 6px;
+}
+
+.copy-box .overlap-group {
+    background-color: rgb(224, 11, 224);
+    border-radius: 8px;
+    height: 30px;
+    position: relative;
+    left: 0px;
+}
+
+.copy-box .div {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+}
+
+.copy-box .ph-link-bold {
+    height: 25px;
+    left: 7px;
+    position: absolute;
+    top: 12px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.copy-box .text-wrapper {
+    color: rgb(105, 101, 101);
+    font-size: 15px;
+    font-weight: 600;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+}
+
+.copy-box .default {
+    left: 263px;
+    width: 64px;
+    color: black;
+}
+
+.copy-box .variant-2 {
+    left: 237px;
+    width: 90px;
+}
+
+.copy-box .copy.default .overlap-group {
+    width: 62px;
+}
+
+.copy-box .copy.variant-2 .overlap-group {
+    width: 88px;
+}
+
+.copy-box .copy.default .div {
+    left: 12px;
+}
+
+.copy-box .copy.variant-2 .div {
+    left: 14px;
+}

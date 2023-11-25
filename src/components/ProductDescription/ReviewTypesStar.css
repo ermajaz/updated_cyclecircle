@@ -1,0 +1,32 @@
+.reviewTypesStar-ratings{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .reviewTypesStar-ratings .reviewTypesStar-rating {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .reviewTypesStar-ratings .reviewTypesStar-starIcon {
+    height: 15px;
+    width: 15px;
+    margin: 0 6px;
+    cursor: pointer;
+  }
+  .reviewTypesStar-ratings .reviewTypesStar-starIcon svg {
+    color: rgb(250, 198, 42);
+  font-size: 30px;
+  }
+  .reviewTypesStar-total-star-count {
+    color: black;
+    margin: 12px 0 0 8px;
+    font-size: 1rem;
+  
+  }
+  

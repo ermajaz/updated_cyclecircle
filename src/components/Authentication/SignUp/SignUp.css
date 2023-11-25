@@ -1,0 +1,28 @@
+.sign-up-container {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: black;
+  margin-bottom: 100px;
+}
+.sign-up-status {
+  /* width: 100%;
+  height: 100%;
+  margin: 0 auto; */
+  margin: 10px;
+}
+.sign-up-main-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sign-up-form-main-container{
+    width: 80%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}

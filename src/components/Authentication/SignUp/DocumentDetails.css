@@ -1,0 +1,160 @@
+.document-details-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: black;
+  position: relative;
+}
+.document-details-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.document-details-main-container {
+  width: 50%;
+}
+.document-detail-basic-detail-form-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.document-detail-basic-detail-form-1 fieldset {
+  width: calc(50% - 20px); /* Adjust as needed */
+  border-radius: 7px;
+  padding: 0px 10px;
+  margin: 60px 0;
+}
+
+.document-detail-basic-detail-form-1 fieldset legend {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.document-detail-basic-detail-form-1 fieldset input {
+  width: 100%; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  border: none;
+  outline: none;
+  color: black;
+  margin-top: 5px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.document-details-save-cancel-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  left: 100px;
+  bottom: 10px;
+}
+.document-details-cancel-btn {
+  font-size: 1.1rem;
+  margin-right: 100px;
+}
+.document-details-save-btn {
+  width: 100px;
+  padding: 8px 15px;
+  background: #3a9978;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+
+
+.document-detail-aadhar-upload-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px 5px gray;
+  padding: 15px;
+  position: absolute;
+  top: 50px;
+  right: 80px;
+}
+.document-detail-aadhar-upload-bordered-container{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px dashed #9E3DCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  cursor: pointer;
+}
+.document-detail-aadhar-upload-bordered-container img{
+  width: 30px;
+  height:30px;
+}
+.document-detail-aadhar-upload-bordered-container span{
+  font-size: 0.9rem;
+}
+.document-detail-aadhar-upload-bordered-container p{
+  color: #9E3DCC;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.document-detail-aadhar-upload-bordered-container a{
+  width: 100px;
+  padding: 7px 15px;
+  background: #9E3DCC;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+.document-detail-pan-upload-container{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 12px 5px gray;
+  padding: 15px;
+  position: absolute;
+  top: 270px;
+  right: 80px;
+}
+.document-detail-pan-upload-bordered-container{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px dashed #9E3DCC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  cursor: pointer;
+}
+.document-detail-pan-upload-bordered-container img{
+  width: 30px;
+  height: 30px;
+}
+.document-detail-pan-upload-bordered-container span{
+  font-size: 0.9rem;
+}
+.document-detail-pan-upload-bordered-container p{
+  color: #9E3DCC;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.document-detail-pan-upload-bordered-container a{
+  width: 100px;
+  padding: 7px 15px;
+  background: #9E3DCC;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,71 @@
+.breadcrum-container{
+    width: 100%;
+    height: auto;
+    padding: 15px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    color: rgb(65, 63, 63);
+    background: white;
+}
+.breadcrum-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrum-carts-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.breadcrum-carts-container hr{
+    background: rgb(200, 194, 194);
+    border: none;
+    width: 120px;
+    height: 5px;
+}
+.breadcrum-carts-icon{
+    width: 48px;
+    height: 48px;
+    background: #079953;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    color: #f4ecec;
+}
+.breadcrum-address-container{
+    display: flex;
+    align-items: center;
+}
+.breadcrum-address-container hr{
+    background: rgb(200, 194, 194);
+    border: none;
+    width: 120px;
+    height: 5px;
+}
+.breadcrum-address-icon{
+    width: 48px;
+    height: 48px;
+    background: rgb(200, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+.breadcrum-payment-container{
+    display: flex;
+    align-items: center;
+}
+.breadcrum-payment-container hr{
+    background: rgb(200, 194, 194);
+    width: auto;
+}
+.breadcrum-payment-icon{
+    width: 48px;
+    height: 48px;
+    background: rgb(200, 194, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}

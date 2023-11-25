@@ -1,0 +1,153 @@
+.dealsership-details-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: black;
+  position: relative;
+}
+
+.dealership-details-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.dealership-details-save-cancel-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.dealership-details-cancel-btn {
+  font-size: 1.1rem;
+  margin-right: 30px;
+}
+.dealership-details-save-btn {
+  width: 100px;
+  padding: 8px 15px;
+  background: #3a9978;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.dealer-details-side-details-1 {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid var(--border-color);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px var(--border-color);
+}
+.user-image-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.dealer-name {
+  position: absolute;
+  top: 13px;
+  left: 50px;
+  font-size: 0.9rem;
+}
+.dealer-details-edit-logo {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 28px;
+  cursor: pointer;
+}
+.dealer-emails-logo {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+.dealer-email {
+  position: absolute;
+  top: 48px;
+  left: 50px;
+  font-size: 0.9rem;
+  color: red;
+}
+
+.dealer-delete-detail {
+  position: absolute;
+  top: 43px;
+  right: 10px;
+  width: 28px;
+  cursor: pointer;
+}
+.dealer-phone-logo {
+  position: absolute;
+  top: 85px;
+  left: 10px;
+}
+.dealer-phone-number {
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  font-size: 0.9rem;
+}
+.dealer-location-logo {
+  position: absolute;
+  top: 125px;
+  left: 10px;
+}
+.dealer-address-location {
+  position: absolute;
+  top: 115px;
+  left: 50px;
+  width: 150px;
+  font-size: 0.9rem;
+}
+.dealer-details-delete-container {
+  width: 350px;
+  height: 240px;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-shadow: 0 0 10px 0px gray;
+  padding: 10px;
+}
+.delete-warning-logo {
+  position: absolute;
+  top: 30px;
+  left: 43%;
+  padding: 10px;
+  background: #bd001c26;
+  border-radius: 50%;
+}
+.delete-dealership-1 {
+  position: absolute;
+  top: 95px;
+  left: 100px;
+  font-size: 1.1rem;
+}
+.delete-dealership-desc {
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.keep-it-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  color: black;
+}
+.yes-delete-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 50px;
+  background: red;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}

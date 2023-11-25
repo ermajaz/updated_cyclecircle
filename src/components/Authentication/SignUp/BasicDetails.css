@@ -1,0 +1,186 @@
+.basic-detail-main-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: black;
+    position: relative;
+  }
+  
+  .detail-page-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+  
+  .basic-detail-form-container {
+    width: auto;
+    height: auto;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  .basic-detail-from-container-half-width {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .basic-detail-basic-detail-form-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .basic-detail-basic-detail-form-1 fieldset {
+    width: calc(50% - 20px); /* Adjust as needed */
+    border-radius: 7px;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+  }
+  
+  .basic-detail-basic-detail-form-1 fieldset legend {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .basic-detail-basic-detail-form-1 fieldset input {
+    width: 100%; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    border: none;
+    outline: none;
+    color: black;
+    margin-top: 5px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+.basic-detail-phone-email-verfication{
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+.basic-detail-phone-email-verfication legend{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.basic-detail-phone-email-verfication span{
+    font-size: 0.8rem;
+}
+  
+.basic-detail-phone-email-verfication-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+.basic-detail-phone-email-verfication-main-div span{
+    padding: 10px;
+    font-size: 1rem;
+}
+.basic-detail-phone-email-verification-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+.basic-detail-phone-email-verification-btn a{
+    width: 140px;
+    padding: 8px 15px;
+    background: #3a9978;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.basic-detail-form-2-gender{
+    width: calc(50% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.basic-detail-form-2-gender fieldset{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    padding-right: 50px;
+}
+
+.basic-detail-form-2-gender fieldset input{
+    border: 1px solid black;
+    width: 18px;
+    height:18px;
+    margin-left: 0;
+    cursor: pointer;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.basic-detail-form-instruction{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -75px;
+}
+.basic-detail-form-instruction svg{
+    font-size: 1.2rem;
+}
+.basic-detail-form-instruction span{
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+.basic-details-save-continue-btn{
+    width: 150px;
+    padding: 8px 15px;
+    background: #9E3DCC;
+    color: white;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.basic-detail-photo-upload-container{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px 5px gray;
+    padding: 15px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+.basic-detail-photo-upload-bordered-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px dashed #9E3DCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.basic-detail-photo-upload-bordered-container p{
+    color: #9E3DCC;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.basic-detail-photo-upload-bordered-container a{
+    width: 100px;
+    padding: 7px 15px;
+    background: #9E3DCC;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+}
